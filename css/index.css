@@ -751,8 +751,9 @@ main {
   width: 20px;
   height: 100px;
   display: none;
-  background: #222;
-  border-radius: 20px;
+  background: #2c2c2c;
+  border-radius: 10px;
+  border: 1px #1f1f1f solid;
   padding: 5px;
 }
 
@@ -763,9 +764,9 @@ main {
 }
 
 .volume-slider {
-  width: 100%;
+  width: auto;
   height: 90%;
-  background: #222;
+  background: transparent;
   writing-mode: vertical-rl;
   border-radius: 20px;
   outline: none;
